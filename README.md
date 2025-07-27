@@ -46,7 +46,7 @@ npx expo start
 
 ---
 
-📁 File Structure
+### 📁 File Structure
 
 ```bash
 .
@@ -75,11 +75,12 @@ npx expo start
  ```
 ---
 
-📸 App Icon
+### 📸 App Icon
+
 <img src="./assets/images/Quiz_Icon.png" alt="App Icon" width="180"/>
 
 ---
-💡 Planned Features
+### 💡 Planned Features
 - 🔐 User authentication
 
 - 🗂 Flashcard deck organization
