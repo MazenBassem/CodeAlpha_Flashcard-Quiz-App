@@ -48,30 +48,30 @@ npx expo start
 
 📁 File Structure
 
+.
+├── app/
+│   ├── +not-found.tsx
+│   ├── _layout.tsx
+│   ├── _editCard.tsx
+│   └── (tabs)/
+│       ├── add-card.tsx
+│       ├── index.tsx
+│       ├── view-cards.tsx
+│       └── _layout.tsx
+├── components/
+│   ├── CardViewer.tsx
+│   ├── CardEditor.tsx
+│   └── NextButton.tsx
+├── context/
+│   └── FlashcardContext.tsx
+├── lib/
+│   └── supabase.ts
+├── assets/
+│   └── Quiz_icon.png
+├── .env
+└── README.md
 
-  .
--  ├── app/
--  │   ├── +not-found.tsx
--  │   ├── _layout.tsx
--  │   ├── _editCard.tsx
--  │   └── (tabs)/
--  │       └── add-card.tsx
--  │       └── index.tsx
--  │       └── view-cards.tsx
--  │       └── _layout.tsx
--  ├── components/
--  │   ├── CardViewer.tsx
--  │   └── CardEditor.tsx
--  │   └── NextButton.tsx
--  ├── context/
--  │   └── FlashcardContext.tsx
--  ├── lib/
--  │   └── supabase.ts
--  ├── assets/
--  │   └── icon.png
--  ├── README.md
--  └── .env
-
+ 
 ---
 
 📸 App Icon
