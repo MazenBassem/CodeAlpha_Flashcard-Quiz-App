@@ -91,7 +91,7 @@ npx expo start
 
 - 🧪 Quiz mode with scoring
 
-- 🧠 License
+### 🧠 License
 MIT License — use it freely, and make learning fun 🎓
 
 
