@@ -49,32 +49,35 @@ npx expo start
 📁 File Structure
 
 
-.
-├── app/
-│   ├── +not-found.tsx
-│   ├── _layout.tsx
-│   ├── _editCard.tsx
-│   └── (tabs)/
-│       └── add-card.tsx
-│       └── index.tsx
-│       └── view-cards.tsx
-│       └── _layout.tsx
-├── components/
-│   ├── CardViewer.tsx
-│   └── CardEditor.tsx
-│   └── NextButton.tsx
-├── context/
-│   └── FlashcardContext.tsx
-├── lib/
-│   └── supabase.ts
-├── assets/
-│   └── icon.png
-├── README.md
-└── .env
+  .
+-  ├── app/
+-  │   ├── +not-found.tsx
+-  │   ├── _layout.tsx
+-  │   ├── _editCard.tsx
+-  │   └── (tabs)/
+-  │       └── add-card.tsx
+-  │       └── index.tsx
+-  │       └── view-cards.tsx
+-  │       └── _layout.tsx
+-  ├── components/
+-  │   ├── CardViewer.tsx
+-  │   └── CardEditor.tsx
+-  │   └── NextButton.tsx
+-  ├── context/
+-  │   └── FlashcardContext.tsx
+-  ├── lib/
+-  │   └── supabase.ts
+-  ├── assets/
+-  │   └── icon.png
+-  ├── README.md
+-  └── .env
+
+---
 
 📸 App Icon
 <img src="./assets/Quiz_icon.png" alt="App Icon" width="180"/>
 
+---
 💡 Planned Features
 - 🔐 User authentication
 
