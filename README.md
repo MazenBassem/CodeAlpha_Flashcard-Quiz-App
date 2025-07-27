@@ -1,50 +1,86 @@
-# Welcome to your Expo app 👋
+# 📚 Flashcard Quiz App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A modern flashcard quiz application built with **Expo Router**, **React Native**, and **Supabase**. Create, edit, and flip through flashcards with smooth animations and persistent cloud storage.
 
-## Get started
+## 🚀 Features
 
-1. Install dependencies
+- 🔄 Flip animation between questions and answers
+- ➕ Add/edit flashcards with Supabase backend
+- 🧠 Context API for global state management
+- 🧭 Navigation powered by Expo Router
+- 💾 Data synced to Supabase in real-time
+- ✨ Toast notifications and loading indicators
+- 📱 Fully responsive and works on Android, iOS, and Web
 
-   ```bash
-   npm install
-   ```
+---
 
-2. Start the app
+## 📦 Tech Stack
 
-   ```bash
-   npx expo start
-   ```
+- [Expo Router](https://docs.expo.dev/router/)
+- [React Native](https://reactnative.dev/)
+- [Supabase](https://supabase.com/)
+- [Reanimated v3](https://docs.swmansion.com/react-native-reanimated/)
+- [React Native Paper](https://callstack.github.io/react-native-paper/)
+- [react-native-toast-message](https://github.com/calintamas/react-native-toast-message)
 
-In the output, you'll find options to open the app in a
+---
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## 🛠️ Getting Started
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
+### 1. Clone the Repository
 
 ```bash
-npm run reset-project
+git clone https://github.com/your-username/flashcard-quiz.git
+cd flashcard-quiz
+``
+```
+### 2. Install dependencies
+
+```bash
+npm install
+```
+### 3. Run the app
+
+```bash
+npx expo start
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+📁 File Structure
 
-## Learn more
+.
+├── app/
+│   ├── +not-found.tsx
+│   ├── _layout.tsx
+│   ├── _editCard.tsx
+│   └── (tabs)/
+│       └── add-card.tsx
+│       └── index.tsx
+│       └── view-cards.tsx
+│       └── _layout.tsx
+├── components/
+│   ├── CardViewer.tsx
+│   └── CardEditor.tsx
+│   └── NextButton.tsx
+├── context/
+│   └── FlashcardContext.tsx
+├── lib/
+│   └── supabase.ts
+├── assets/
+│   └── icon.png
+├── README.md
+└── .env
 
-To learn more about developing your project with Expo, look at the following resources:
+📸 App Icon
+<img src="./assets/Quiz_icon.png" alt="App Icon" width="180"/>
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+💡 Planned Features
+   User authentication
+   Flashcard deck organization
+   Swipe gestures to flip or switch cards
+   Card difficulty tracking
+   Quiz mode with scoring
 
-## Join the community
+🧠 License
+MIT License — use it freely, and make learning fun 🎓
 
-Join our community of developers creating universal apps.
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
