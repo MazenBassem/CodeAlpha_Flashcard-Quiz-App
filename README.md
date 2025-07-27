@@ -32,7 +32,6 @@ A modern flashcard quiz application built with **Expo Router**, **React Native**
 ```bash
 git clone https://github.com/your-username/flashcard-quiz.git
 cd flashcard-quiz
-``
 ```
 ### 2. Install dependencies
 
@@ -74,11 +73,15 @@ npx expo start
 <img src="./assets/Quiz_icon.png" alt="App Icon" width="180"/>
 
 💡 Planned Features
-   User authentication
-   Flashcard deck organization
-   Swipe gestures to flip or switch cards
-   Card difficulty tracking
-   Quiz mode with scoring
+🔐 User authentication
+
+🗂 Flashcard deck organization
+
+👆 Swipe gestures for flipping and switching cards
+
+📊 Card difficulty tracking
+
+🧪 Quiz mode with scoring
 
 🧠 License
 MIT License — use it freely, and make learning fun 🎓
