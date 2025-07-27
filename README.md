@@ -76,7 +76,7 @@ npx expo start
 ---
 
 📸 App Icon
-<img src="./assets/Quiz_icon.png" alt="App Icon" width="180"/>
+<img src="./assets/images/Quiz_Icon.png" alt="App Icon" width="180"/>
 
 ---
 💡 Planned Features
