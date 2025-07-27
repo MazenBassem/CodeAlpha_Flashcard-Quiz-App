@@ -44,7 +44,10 @@ npm install
 npx expo start
 ```
 
+---
+
 📁 File Structure
+
 
 .
 ├── app/
@@ -73,17 +76,17 @@ npx expo start
 <img src="./assets/Quiz_icon.png" alt="App Icon" width="180"/>
 
 💡 Planned Features
-🔐 User authentication
+- 🔐 User authentication
 
-🗂 Flashcard deck organization
+- 🗂 Flashcard deck organization
 
-👆 Swipe gestures for flipping and switching cards
+- 👆 Swipe gestures for flipping and switching cards
 
-📊 Card difficulty tracking
+- 📊 Card difficulty tracking
 
-🧪 Quiz mode with scoring
+- 🧪 Quiz mode with scoring
 
-🧠 License
+- 🧠 License
 MIT License — use it freely, and make learning fun 🎓
 
 
