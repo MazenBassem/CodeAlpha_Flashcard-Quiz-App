@@ -48,6 +48,7 @@ npx expo start
 
 📁 File Structure
 
+```bash
 .
 ├── app/
 │   ├── +not-found.tsx
@@ -71,7 +72,7 @@ npx expo start
 ├── .env
 └── README.md
 
- 
+ ```
 ---
 
 📸 App Icon
